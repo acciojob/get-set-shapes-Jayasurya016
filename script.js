@@ -1,19 +1,17 @@
 //complete this code
 class Rectangle {
-	#_width
-	#_height
 	constructor(width,height){
-		this.#_width = width
-		this.#_heigth  =height
+		this._width = width
+		this._heigth  =height
 	}
 	get width(){
-		return this.#_width
+		return this._width
 	}
 	get height(){
-		return this.#_height
+		return this._height
 	}
 	getArea(){
-		return this.#_width * this.#_height
+		return this._width * this._height
 	}
 }
 
@@ -26,9 +24,7 @@ class Square extends Animal {
     getPerimeter(){
         return 4 * this.side
     }
-    getArea(){
-        return 5
-    }
+    
 }
 }
 
